@@ -1,6 +1,6 @@
 import numpy as np
-# data = np.loadtxt("Day2.txt",dtype=np.dtype([('dir', str), ('num', int)]))
-data = np.loadtxt("Day2.txt",dtype=str)
+# data = np.loadtxt("data/Day2.txt",dtype=np.dtype([('dir', str), ('num', int)]))
+data = np.loadtxt("data/Day2.txt",dtype=str)
 direction = data[:,0]
 distance = data[:,1].astype(int)
 

@@ -1,5 +1,5 @@
 import numpy as np
-data = np.loadtxt('Day1.txt')
+data = np.loadtxt('data/Day1.txt')
 
 # Part 1
 print("Part 1")

@@ -1,5 +1,5 @@
 import numpy as np
-data = np.loadtxt("Day3.txt",dtype=str)
+data = np.loadtxt("data/Day3.txt",dtype=str)
 datarr = np.array([list(d) for d in data]).astype(int)
 
 print("Part 1")
